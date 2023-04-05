@@ -1,0 +1,8 @@
+{
+   "nome": "Marco Madeira",
+   "dataNascimento": "16/03/1934",
+   "logradouro":"Rua Dom Pedro",
+   "numero": 11111,
+    "cep": "93265140",
+    "cidade": "Esteio"
+}

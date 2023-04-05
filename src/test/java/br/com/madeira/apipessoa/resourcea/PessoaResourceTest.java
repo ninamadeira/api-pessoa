@@ -27,14 +27,14 @@ import static org.mockito.Mockito.when;
 @SpringBootTest
 class PessoaResourceTest {
 
-    private static Integer ID = 1;
+    private static final  Integer ID = 1;
     private static final Integer INDEX   = 0;
-    private static String  NOME = "Maria Silva";
-    private static LocalDate DATANASCIMENTO = LocalDate.of(2013,1,1);
-    private static String LOGRADOURO = "Rua 11 de outubro";
-    private static Integer NUMERO = 11;
-    private static String CEP = "99999111";
-    private static String CIDADE = "Porto Alegre";
+    private static final String  NOME = "Maria Silva";
+    private static final LocalDate DATANASCIMENTO = LocalDate.of(2013,1,1);
+    private static final String LOGRADOURO = "Rua 11 de outubro";
+    private static final Integer NUMERO = 11;
+    private static final String CEP = "99999111";
+    private static final String CIDADE = "Porto Alegre";
 
     @InjectMocks
     private PessoaResource resource;
